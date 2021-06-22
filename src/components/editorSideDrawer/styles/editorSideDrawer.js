@@ -11,6 +11,10 @@ export const Container = styled.div`
   @media (max-width: 639px) {
     display: none;
   }
+  @media screen and (orientation: landscape) {
+    // CSS applied when the device is in landscape mode
+    display: block;
+  }
 `;
 
 export const Inner = styled.div`
