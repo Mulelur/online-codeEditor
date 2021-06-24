@@ -5,9 +5,6 @@ export const Container = styled.div`
   flex-direction: column;
   width: 100vw;
   height: 100vh;
-  @media screen and (orientation: landscape) {
-    // CSS applied when the device is in landscape mode
-  }
 `;
 
 export const Row = styled.div`

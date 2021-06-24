@@ -3,10 +3,6 @@ import styled from "styled-components/macro";
 export const Container = styled.div`
   width: calc(56vw - 241px);
   ${({ preView }) => !preView && "display: none;"}
-  @media screen and (orientation: landscape) {
-    // CSS applied when the device is in landscape mode
-    display: none;
-  }
 `;
 
 export const Header = styled.div`

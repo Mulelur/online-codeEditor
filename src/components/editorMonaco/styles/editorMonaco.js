@@ -9,15 +9,9 @@ export const Container = styled.div`
     height: calc(100vh - 96px);
     width: calc(100vw - ${({ width }) => width}px);
   }
-  @media screen and (orientation: landscape) {
-    // CSS applied when the device is in landscape mode
-    width: calc(100vw - 250px);
-    height: calc(100vh - 96px);
-  }
 `;
 
 export const TempBG = styled.div`
-  // width: calc(100vw - 250px);
   height: 100%;
   background-color: #151313;
   display: flex;
