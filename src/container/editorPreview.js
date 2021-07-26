@@ -16,7 +16,14 @@ export default function EditorPreviewContainer() {
           //   <LiveError />
           //   <LivePreview />
           // </LiveProvider>
-          <iframe srcDoc={state.activeFile.value} title="preview"></iframe>
+          <iframe
+            srcDoc={state.activeFile.value}
+            title="preview"
+            height="100%"
+            width="100%"
+            frameBorder="0"
+            sandbox="allow-scripts"
+          ></iframe>
         )}
       </EditorPreview.Body>
     </EditorPreview>
