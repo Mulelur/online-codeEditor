@@ -19,7 +19,7 @@ export default function EditorPreviewContainer() {
           <iframe
             srcDoc={state.activeFile.value}
             title="preview"
-            height="100%"
+            height='560px'
             width="100%"
             frameBorder="0"
             sandbox="allow-scripts"

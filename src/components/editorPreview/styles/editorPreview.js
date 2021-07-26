@@ -2,6 +2,7 @@ import styled from "styled-components/macro";
 
 export const Container = styled.div`
   width: calc(56vw - 241px);
+  height: 100%;
   ${({ preView }) => !preView && "display: none;"}
 `;
 
