@@ -12,10 +12,11 @@ export default function EditorPreviewContainer() {
       </EditorPreview.Header>
       <EditorPreview.Body>
         {state.activeFile.id && (
-          <LiveProvider code={state.activeFile.value}>
-            <LiveError />
-            <LivePreview />
-          </LiveProvider>
+          // <LiveProvider code={state.activeFile.value}>
+          //   <LiveError />
+          //   <LivePreview />
+          // </LiveProvider>
+          <iframe srcDoc={state.activeFile.value} title="preview"></iframe>
         )}
       </EditorPreview.Body>
     </EditorPreview>
