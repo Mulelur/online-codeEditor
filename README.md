@@ -2,7 +2,7 @@
 
 ![code-editor-ss](https://user-images.githubusercontent.com/63222158/150473135-ed4c46fd-ab4a-4b0c-9d0c-eb534c495c9e.png)
 
-This project is based on the well know vs-code editor, it was build using react.js and monaco-editor(used by vs-code). In this project, you can curenty create html files, css file and javascript file and create a simple html page.
+This project is based on the well know vs-code editor, it was build using react.js and monaco-editor(used by vs-code). In this project, you can currenty create html files, css file and javascript file and create a simple html page.
 
 ## Supported laguages
 
